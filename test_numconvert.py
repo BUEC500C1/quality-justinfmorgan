@@ -1,4 +1,4 @@
-from numConvert import arabicToRomanConverter
+import numConvert
 
 def numconvertUnitTest():
-    assert arabicToRomanConverter(4999) == 'MMMMCMXCIX'
+    assert numConvert.arabicToRomanConverter(4999) == 'MMMMCMXCIX'
