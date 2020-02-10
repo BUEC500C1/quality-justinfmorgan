@@ -11,7 +11,7 @@ def arabicToRomanConverter(arabicInput):
         print("Please input a valid arabic integer")
         return -1
 
-    if(isinstance(arabicInput, int) == False):
+    if(not(isinstance(arabicInput, int))):
         print("Floats are not allowed!")
         return -1
     romanString = ''
